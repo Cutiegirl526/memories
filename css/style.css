@@ -1,6 +1,28 @@
-#first-flip{
-	border: 2px solid #000;
-	height: 150px;
-	width: 150px;
-	background-color: #9FE7D8;
+.row .card{
+	width: 100px;
+	height: 120px;
+	border: 1px solid;
+	padding: 10px;
+	margin: 10px;
+}
+
+.card {
+	-webkit-transition: -webkit-transform 1s;
+	transition: transform 1s;
+	-webkit-transform-style: preserve-3d;
+	transform-style: preserve-3d;
+	-webkit-transform-origin: 50% 50%;
+}
+
+.back {
+	-webkit-transform: rotateY(180deg);
+	transform: rotateY(180deg);
+	background-color: #42cbf4;
+	
+}
+
+.card.flipped {
+	-webkit-transform: rotateY(180deg);
+	transform: rotateY(180deg);
+	background-color: #42cbf4;
 }
