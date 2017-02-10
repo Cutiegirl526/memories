@@ -1,3 +1,4 @@
-function changea(){
-	document.getElementById("one").style.transform = 'rotateY(180deg)';
+function flipMeh(){
+	document.getElementById("topsecond")
+	document.getElementById("bottomthird")
 }
