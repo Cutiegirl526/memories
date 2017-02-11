@@ -1,19 +1,19 @@
-.topone, .toptwo, .topthree, .topfour, .bottomone, .bottomtwo, .bottomthree, .bottomfour{
-  border: 2px solid #000;
+.first{
+  border: black solid;
+  color: pink;
+  width: 200px; 
+  height: 200px;
+  backface-visibility: hidden;
+  position: relative;
+  justify-content: center;
+  align-content: flex-start;
+}
+
+.back{
   width: 200px;
   height: 200px;
-  display: flex;
-  flex-flow: row wrap;
-  margin: 10px;
-}
-
-#top, #bottom{
-	margin-top: 100px;
-    height: 200px;
-    display: flex;
-  	flex-flow: row wrap;
-}
-
-.topone, .toptwo, .topthree, .topfour, .bottomone, .bottomtwo, .bottomthree, .bottomfour{
-	background-color: #38D992
+  position: relative;
+  justify-content: center;
+  backface-visibility: hidden;
+  align-content: flex-end;
 }
