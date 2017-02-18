@@ -1,18 +1,41 @@
-.first{
+.back{
   border: black solid;
   width: 200px; 
   height: 200px;
-  /*backface-visibility: hidden;*/
+  backface-visibility: hidden;
   position: relative;
   justify-content: center;
   align-content: flex-start;
 }
 
-.back{
+.front{
   width: 200px;
   height: 200px;
   position: relative;
   justify-content: center;
   backface-visibility: hidden;
   align-content: flex-end;
+}
+
+#top {
+  display: block;
+  margin-top: 50px;
+  height: 200px;
+  display: flex;
+  flex-flow: row wrap;
+  align-content: center;
+}
+
+#bottom {
+  display: block;
+  margin-top: 50px;
+  height: 200px;
+  display: flex;
+  flex-flow: row wrap;
+  align-content: center;
+}
+
+.tone, .ttwo, .tthree, .tfour, .bone, .btwo, .bthree, .bfour{
+	position: absolute;
+	position: relative;
 }

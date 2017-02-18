@@ -9,24 +9,46 @@
  <header><h1><center> Match Maker</center></h1></header>
   	<div id="container">
   		<div id="top">
-  			<div class="tone" id="tfirst"></div>
-        <div id="m1" class = "first" onclick= "flip(this.id)"><img src="assets/family.jpg" class= "front" img src="assets/626.jpg" class ="back" onclick="changeA(); checkThis()" width="200px " height=" 200px"></div>
-  			<div class="ttwo" id="tsecond"></div>
-        <div id="m2" class = "first" onclick= "flip(this.id)"><img src="assets/254.jpg" class ="back" onclick="changeB(); checkThis()" width="200px " height=" 200px"></div>
-  			<div class="tthree" id="tthird"></div>
-        <div id="m3" class = "first" onclick= "flip(this.id)"><img src="assets/slushy.jpg" class ="back" onclick="changeC(); checkThis()" width="200px " height=" 200px"></div>
-  			<div class="tfour" id="tfourth"> </div>
-        <div id="m4" class = "first" onclick= "flip(this.id)"><img src="assets/sandwich.jpg" class ="back" onclick="changeD(); checkThis()" width="200px " height=" 200px"></div>
-      </div>
+  			<div class="tone" id="tfirst">
+        		<img src="assets/family.jpg" class= "front" id="tf1" onclick="flip(this.id); check()">
+        		<img src="assets/626.jpg" class ="back" id="tb1" onclick="flip(this.id); check()">	
+        	</div>
+
+  			<div class="ttwo" id="tsecond">
+  				<img src="assets/family.jpg" class= "front" id="tf2" onclick="flip(this.id)">
+        		<img src="assets/254.jpg" class ="back" id="tb2" onclick="flip(this.id); check()">
+        	</div>
+
+  			<div class="tthree" id="tthird">
+  				<img src="assets/family.jpg" class= "front" id="tf3" onclick="flip(this.id)">
+        		<img src="assets/slushy.jpg" class= "back" id="tb3" onclick="flip(this.id); check()">
+        	</div>
+
+  			<div class="tfour" id="tfourth">
+  				<img src="assets/family.jpg" class= "front" id="tf4" onclick="flip(this.id)">
+        		<img src="assets/sandwich.jpg" class ="back" id="tb4" onclick="flip(this.id); check()">
+        	</div>
+      	</div>
   		<div id="bottom">
-  			<div class="bone" id="bfirst"></div>
-        <div id="p4" class = "first" onclick= "flip(this.id)"><img src="assets/sandwich.jpg" class ="back" onclick="changeD(); checkThis()" width="200px " height=" 200px"></div>
-  			<div class="btwo" id="bsecond"></div>
-        <div id="p3" class = "first" onclick= "flip(this.id)"><img src="assets/slushy.jpg" class ="back" onclick="changeC(); checkThis()" width="200px " height=" 200px"></div>
-  			<div class="p1" id="bthird"></div>
-        <div id="onematch" class = "first" onclick= "flip(this.id)"><img src="assets/626.jpg" class ="back" onclick="changeA(); checkThis()" width="200px " height=" 200px"></div>
-  			<div class="p2" id="bfourth"> </div>
-        <div id="onematch" class = "first" onclick= "flip(this.id)"><img src="assets/254.jpg" class ="back" onclick="changeB(); checkThis()" width="200px " height=" 200px"></div>
+  			<div class="bone" id="bfirst">
+        		<img src="assets/family.jpg" class= "front" id="bf1" onclick="flip(this.id)">
+        		<img src="assets/sandwich.jpg" class ="back" id="bb1" onclick="flip(this.id); check()">
+        	</div>
+
+  			<div class="btwo" id="bsecond">
+       			<img src="assets/family.jpg" class= "front" id="bf2" onclick="flip(this.id)">
+       			<img src="assets/slushy.jpg" class ="back" id="bb2" onclick="flip(this.id); check()">
+       		</div>
+
+  			<div class="p1" id="bthird">
+  				<img src="assets/family.jpg" class= "front" id="bf3" onclick="flip(this.id)">
+        		<img src="assets/626.jpg" class ="back" id="bb3" onclick="flip(this.id); check()">
+        	</div>
+
+  			<div class="p2" id="bfourth">
+  				<img src="assets/family.jpg" class= "front" id="bf4" onclick="flip(this.id)">
+        		<img src="assets/254.jpg" class ="back" id="bb4" onclick="flip(this.id); check()">
+        	</div>
       </div>
   	</div>
 	<footer></footer>
