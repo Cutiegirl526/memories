@@ -27,4 +27,4 @@ var clicks = 0;
 var firstSelect; 
 var secondSelect;
 var match = 0;
-var cardBack = "/assets/family.jpg";
+var cardFront = "/assets/Family.jpg";
